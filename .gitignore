@@ -1,1 +1,3 @@
-/src/main/kotlin/main.kt
+/.gradle
+/.idea
+/build

@@ -1,8 +1,9 @@
 
-
 fun main () {
 
-    val likes = 12
+    val likes = 5
 
-    if ((likes - 1) % 10 == 0) println("$likes человек") else println("$likes людям")
+    val peoples = if ((likes) % 10 == 1)  ("$likes человеку") else ("$likes людям")
+
+    println(peoples)
 }
